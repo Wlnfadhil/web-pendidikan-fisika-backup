@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./dist/output.css" />
   </head>
   <body>
-    <header class="flex items-center">
+    <!-- <header class="flex items-center">
       <div class="ml-5">
         <img src="img/logo-fisika-unsil.png" class="h-12" alt="logo pendidikan fisika unsil" />
       </div>
@@ -20,12 +20,39 @@
           <li><a href="#">Dark mode</a></li>
         </ul>
       </div>
+    </header> -->
+
+    <header class="flex flex-wrap items-center px-6 py-2 bg-white lg:px-16 lg:py-0">
+      <div class="flex items-center justify-between flex-1">
+        <a href="#" class="flex items-center justify-start mb-4 lg:ml-4 lg:mb-0 pointer-cursor">
+          <img class="rounded-full transparent border2 hover:border-indigo-400" src="img/logo-fisika-unsil.png" alt="logo pendidikan fisika ">
+        </a>
+    </div>
+  
+     <label for="menu-toggle" class="block pointer-cursor lg:hidden"><svg class="text-gray-900 fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><title>menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg></label>
+    <input class="hidden" type="checkbox" id="menu-toggle" />
+  
+    <div class="hidden w-full lg:flex lg:items-center lg:w-auto" id="menu">
+      <nav>
+        <ul class="items-center justify-between pt-4 text-base text-gray-700 lg:flex lg:pt-0">
+          <li><a class="block px-0 py-3 border-b-2 border-transparent lg:p-4 hover:border-indigo-400" href="#">Telusur Data</a></li>
+          <li><a class="block px-0 py-3 border-b-2 border-transparent lg:p-4 hover:border-indigo-400" href="#">Landing Page</a></li>
+          <li><a class="block px-0 py-3 border-b-2 border-transparent lg:p-4 hover:border-indigo-400" href="#">Profil Dosenn</a></li>
+          <li><a class="block px-0 py-3 mb-2 border-b-2 border-transparent lg:p-4 hover:border-indigo-400 lg:mb-0" href="#">Tentang</a></li>
+        </ul>
+      </nav>
+      
+  
+    </div>
+  
     </header>
+<!-- navbar awal -->
+ 
 
     <!--  -->
-    <main class="h-full bg-slate-200 p-10">
-      <div class="bg-white p-4 rounded-lg shadow-md">
-        <h2 class="text-lg font-bold mb-4">Tabel Dosen</h2>
+    <!-- <main class="h-full p-10 bg-slate-200">
+      <div class="p-4 bg-white rounded-lg shadow-md">
+        <h2 class="mb-4 text-lg font-bold">Tabel Dosen</h2>
         <table class="w-full text-left table-auto">
           <thead>
             <tr class="bg-gray-100">
@@ -37,82 +64,185 @@
           </thead>
           <tbody>
             <tr>
-              <td class="border px-4 py-2"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
-              <td class="border px-4 py-2">0014118102</td>
-              <td class="border px-4 py-2">Kimia</td>
-              <td class="border px-4 py-2">Fakultas Matematika dan IPA</td>
+              <td class="px-4 py-2 border"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
+              <td class="px-4 py-2 border">0014118102</td>
+              <td class="px-4 py-2 border">Kimia</td>
+              <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
             </tr>
             <tr>
-              <td class="border px-4 py-2"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
-              <td class="border px-4 py-2">0014118102</td>
-              <td class="border px-4 py-2">Kimia</td>
-              <td class="border px-4 py-2">Fakultas Matematika dan IPA</td>
+              <td class="px-4 py-2 border"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
+              <td class="px-4 py-2 border">0014118102</td>
+              <td class="px-4 py-2 border">Kimia</td>
+              <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
             </tr>
             <tr>
-              <td class="border px-4 py-2"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
-              <td class="border px-4 py-2">0014118102</td>
-              <td class="border px-4 py-2">Kimia</td>
-              <td class="border px-4 py-2">Fakultas Matematika dan IPA</td>
+              <td class="px-4 py-2 border"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
+              <td class="px-4 py-2 border">0014118102</td>
+              <td class="px-4 py-2 border">Kimia</td>
+              <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
             </tr>
             <tr>
-              <td class="border px-4 py-2"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
-              <td class="border px-4 py-2">0014118102</td>
-              <td class="border px-4 py-2">Kimia</td>
-              <td class="border px-4 py-2">Fakultas Matematika dan IPA</td>
+              <td class="px-4 py-2 border"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
+              <td class="px-4 py-2 border">0014118102</td>
+              <td class="px-4 py-2 border">Kimia</td>
+              <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
             </tr>
             <tr>
-              <td class="border px-4 py-2"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
-              <td class="border px-4 py-2">0014118102</td>
-              <td class="border px-4 py-2">Kimia</td>
-              <td class="border px-4 py-2">Fakultas Matematika dan IPA</td>
+              <td class="px-4 py-2 border"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
+              <td class="px-4 py-2 border">0014118102</td>
+              <td class="px-4 py-2 border">Kimia</td>
+              <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
             </tr>
             <tr>
-              <td class="border px-4 py-2"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
-              <td class="border px-4 py-2">0014118102</td>
-              <td class="border px-4 py-2">Kimia</td>
-              <td class="border px-4 py-2">Fakultas Matematika dan IPA</td>
+              <td class="px-4 py-2 border"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
+              <td class="px-4 py-2 border">0014118102</td>
+              <td class="px-4 py-2 border">Kimia</td>
+              <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
             </tr>
             <tr>
-              <td class="border px-4 py-2"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
-              <td class="border px-4 py-2">0014118102</td>
-              <td class="border px-4 py-2">Kimia</td>
-              <td class="border px-4 py-2">Fakultas Matematika dan IPA</td>
+              <td class="px-4 py-2 border"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
+              <td class="px-4 py-2 border">0014118102</td>
+              <td class="px-4 py-2 border">Kimia</td>
+              <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
             </tr>
             <tr>
-              <td class="border px-4 py-2"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
-              <td class="border px-4 py-2">0014118102</td>
-              <td class="border px-4 py-2">Kimia</td>
-              <td class="border px-4 py-2">Fakultas Matematika dan IPA</td>
+              <td class="px-4 py-2 border"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
+              <td class="px-4 py-2 border">0014118102</td>
+              <td class="px-4 py-2 border">Kimia</td>
+              <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
             </tr>
             <tr>
-              <td class="border px-4 py-2"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
-              <td class="border px-4 py-2">0014118102</td>
-              <td class="border px-4 py-2">Kimia</td>
-              <td class="border px-4 py-2">Fakultas Matematika dan IPA</td>
+              <td class="px-4 py-2 border"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
+              <td class="px-4 py-2 border">0014118102</td>
+              <td class="px-4 py-2 border">Kimia</td>
+              <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
             </tr>
             <tr>
-              <td class="border px-4 py-2"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
-              <td class="border px-4 py-2">0014118102</td>
-              <td class="border px-4 py-2">Kimia</td>
-              <td class="border px-4 py-2">Fakultas Matematika dan IPA</td>
+              <td class="px-4 py-2 border"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
+              <td class="px-4 py-2 border">0014118102</td>
+              <td class="px-4 py-2 border">Kimia</td>
+              <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
             </tr>
             <tr>
-              <td class="border px-4 py-2"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
-              <td class="border px-4 py-2">0014118102</td>
-              <td class="border px-4 py-2">Kimia</td>
-              <td class="border px-4 py-2">Fakultas Matematika dan IPA</td>
+              <td class="px-4 py-2 border"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
+              <td class="px-4 py-2 border">0014118102</td>
+              <td class="px-4 py-2 border">Kimia</td>
+              <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
             </tr>
             <tr>
-              <td class="border px-4 py-2"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
-              <td class="border px-4 py-2">0014118102</td>
-              <td class="border px-4 py-2">Kimia</td>
-              <td class="border px-4 py-2">Fakultas Matematika dan IPA</td>
+              <td class="px-4 py-2 border"><a href="#">Dr. Udin Petot, S.Doger. M.CL</a></td>
+              <td class="px-4 py-2 border">0014118102</td>
+              <td class="px-4 py-2 border">Kimia</td>
+              <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
             </tr>
           </tbody>
         </table>
       </div>
+    </main> -->
+    <main class="min-h-screen p-6 bg-slate-200">
+      <div class="p-4 bg-white rounded-lg shadow-md">
+        <h2 class="mb-4 text-lg font-bold">Tabel Dosen</h2>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left border-collapse table-auto">
+            <thead>
+              <tr class="bg-gray-100">
+                <th class="px-4 py-2 border">Nama</th>
+                <th class="px-4 py-2 border">NIDN</th>
+                <th class="px-4 py-2 border">Program Studi</th>
+                <th class="px-4 py-2 border">Fakultas</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="px-4 py-2 border"><a href="#" class="text-blue-500 hover:underline">Dr. Udin Petot, S.Doger. M.CL</a></td>
+                <td class="px-4 py-2 border">0014118102</td>
+                <td class="px-4 py-2 border">Kimia</td>
+                <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-2 border"><a href="#" class="text-blue-500 hover:underline">Dr. Udin Petot, S.Doger. M.CL</a></td>
+                <td class="px-4 py-2 border">0014118102</td>
+                <td class="px-4 py-2 border">Kimia</td>
+                <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-2 border"><a href="#" class="text-blue-500 hover:underline">Dr. Udin Petot, S.Doger. M.CL</a></td>
+                <td class="px-4 py-2 border">0014118102</td>
+                <td class="px-4 py-2 border">Kimia</td>
+                <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-2 border"><a href="#" class="text-blue-500 hover:underline">Dr. Udin Petot, S.Doger. M.CL</a></td>
+                <td class="px-4 py-2 border">0014118102</td>
+                <td class="px-4 py-2 border">Kimia</td>
+                <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-2 border"><a href="#" class="text-blue-500 hover:underline">Dr. Udin Petot, S.Doger. M.CL</a></td>
+                <td class="px-4 py-2 border">0014118102</td>
+                <td class="px-4 py-2 border">Kimia</td>
+                <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-2 border"><a href="#" class="text-blue-500 hover:underline">Dr. Udin Petot, S.Doger. M.CL</a></td>
+                <td class="px-4 py-2 border">0014118102</td>
+                <td class="px-4 py-2 border">Kimia</td>
+                <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-2 border"><a href="#" class="text-blue-500 hover:underline">Dr. Udin Petot, S.Doger. M.CL</a></td>
+                <td class="px-4 py-2 border">0014118102</td>
+                <td class="px-4 py-2 border">Kimia</td>
+                <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-2 border"><a href="#" class="text-blue-500 hover:underline">Dr. Udin Petot, S.Doger. M.CL</a></td>
+                <td class="px-4 py-2 border">0014118102</td>
+                <td class="px-4 py-2 border">Kimia</td>
+                <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-2 border"><a href="#" class="text-blue-500 hover:underline">Dr. Udin Petot, S.Doger. M.CL</a></td>
+                <td class="px-4 py-2 border">0014118102</td>
+                <td class="px-4 py-2 border">Kimia</td>
+                <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-2 border"><a href="#" class="text-blue-500 hover:underline">Dr. Udin Petot, S.Doger. M.CL</a></td>
+                <td class="px-4 py-2 border">0014118102</td>
+                <td class="px-4 py-2 border">Kimia</td>
+                <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-2 border"><a href="#" class="text-blue-500 hover:underline">Dr. Udin Petot, S.Doger. M.CL</a></td>
+                <td class="px-4 py-2 border">0014118102</td>
+                <td class="px-4 py-2 border">Kimia</td>
+                <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-2 border"><a href="#" class="text-blue-500 hover:underline">Dr. Udin Petot, S.Doger. M.CL</a></td>
+                <td class="px-4 py-2 border">0014118102</td>
+                <td class="px-4 py-2 border">Kimia</td>
+                <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-2 border"><a href="#" class="text-blue-500 hover:underline">Dr. Udin Petot, S.Doger. M.CL</a></td>
+                <td class="px-4 py-2 border">0014118102</td>
+                <td class="px-4 py-2 border">Kimia</td>
+                <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
+              </tr>
+              <tr>
+                <td class="px-4 py-2 border"><a href="#" class="text-blue-500 hover:underline">Dr. Udin Petot, S.Doger. M.CL</a></td>
+                <td class="px-4 py-2 border">0014118102</td>
+                <td class="px-4 py-2 border">Kimia</td>
+                <td class="px-4 py-2 border">Fakultas Matematika dan IPA</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
     </main>
-
-    <footer class="bg-green-400 p-5 text-center">&copy;Copyright 2021 - 2024. All Rights Reserved by Website: <a href="https://fisika.unsil.ac.id/">Pendidikan Fisika UNSIL</a></footer>
+    
+    <footer class="p-5 text-center bg-green-400">&copy;Copyright 2021 - 2024. All Rights Reserved by Website: <a href="https://fisika.unsil.ac.id/">Pendidikan Fisika UNSIL</a></footer>
   </body>
 </html>
